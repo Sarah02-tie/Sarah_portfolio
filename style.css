@@ -1,0 +1,97 @@
+.main{
+   
+    font-size: 10mm;
+    font-family: 'Abril Fatface', cursive;
+    background-color: #ff9001;
+    
+
+}
+ .card{
+    width: 18rem;
+    height: 20rem;
+    background-color: #ff9001;
+    align-self: center;
+    
+ }
+
+  
+  .image {
+    width:100%; 
+  }
+  .img{
+      background-image: url(../portfolio/images/hobbies.jpg);
+      opacity: 0.2;
+  }
+  .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: cornsilk;
+  }
+.biodata{
+    font-style:bold ;
+    font-size: 5mm;
+    font-family:'Abril Fatface', cursive;
+}
+.profile{
+  font-style:bold ;
+  font-size: 9mm;
+  font-family:'Abril Fatface', cursive;
+}
+.edu{
+  font-size: 8mm;
+  font-style: italic;
+}
+.dot{
+    height: 90px;
+  width: 90px;
+  background-color:cornsilk;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+}/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color:cornsilk;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: black;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
